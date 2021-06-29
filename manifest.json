@@ -3,10 +3,11 @@
     "version": "1.0.0",
     "manifest_version": 2,
     "description": "Notes",
-    "background": {
-        "scripts": ["background.js"]
-    },
     "icons": {
-        "512": "logo512.png"
+        "512": "./media/notes.png"
+    },
+    "browser_action": {
+        "default_icon": "./media/notes.png",
+        "default_popup": "popup.html"
     }
 }
