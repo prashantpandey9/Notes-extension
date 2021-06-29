@@ -1,0 +1,12 @@
+{
+    "name": "Notes",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Notes",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "512": "logo512.png"
+    }
+}
